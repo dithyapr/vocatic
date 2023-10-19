@@ -1,0 +1,602 @@
+.confirm-purchases {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.confirm-purchases .nav-bar {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .navbar {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--navbar-banner);
+  box-shadow: 0px 0px 15px #0000001a;
+}
+
+.confirm-purchases .container {
+  display: flex;
+  width: 1280px;
+  align-items: center;
+  gap: 40px;
+  padding: 24px;
+  position: relative;
+}
+
+.confirm-purchases .content {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 42px;
+}
+
+.confirm-purchases .image {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  top: -9px;
+  left: 2px;
+  object-fit: cover;
+}
+
+.confirm-purchases .trailing-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  position: absolute;
+  top: -3px;
+  left: 894px;
+}
+
+.confirm-purchases .frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: var(--text-white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.confirm-purchases .group {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.confirm-purchases .overlap-group {
+  position: relative;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.confirm-purchases .material-symbols {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 4px;
+  left: 4px;
+}
+
+.confirm-purchases .ellipse {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--text-white);
+}
+
+.confirm-purchases .icon-px-wrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--text-white);
+}
+
+.confirm-purchases .icon-px {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 6px;
+  left: 5px;
+}
+
+.confirm-purchases .img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 6px;
+  left: 6px;
+}
+
+.confirm-purchases .overlap-wrapper {
+  position: relative;
+  width: 50px;
+  height: 48px;
+  margin-right: -2px;
+}
+
+.confirm-purchases .overlap {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-color: var(--text-black);
+  border-radius: 24px;
+}
+
+.confirm-purchases .div {
+  position: absolute;
+  height: 28px;
+  top: 10px;
+  left: 11px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: var(--text-white);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.confirm-purchases .navbar-wrapper {
+  position: relative;
+  width: 1440px;
+  height: 76px;
+  background-color: var(--primary);
+}
+
+.confirm-purchases .navbar-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 64px;
+  position: relative;
+  top: 26px;
+  left: 110px;
+}
+
+.confirm-purchases .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  opacity: 0.7;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--text-white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  white-space: nowrap;
+}
+
+.confirm-purchases .desktop {
+  position: relative;
+  width: 1440px;
+  height: 664px;
+  background-color: var(--text-white);
+}
+
+.confirm-purchases .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  top: 110px;
+  left: 419px;
+}
+
+.confirm-purchases .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .p {
+  position: relative;
+  width: 603px;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.4px;
+}
+
+.confirm-purchases .text-wrapper-3 {
+  position: relative;
+  width: 603px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--neutral-900);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.confirm-purchases .frame-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .king {
+  position: absolute;
+  width: 75px;
+  height: 178px;
+  top: -16px;
+  left: 58px;
+}
+
+.confirm-purchases .king-2 {
+  position: relative;
+  width: 75px;
+  height: 178px;
+}
+
+.confirm-purchases .text-wrapper-4 {
+  position: relative;
+  width: 527px;
+  height: 50px;
+  font-family: var(--subheading-2-regular-font-family);
+  font-weight: var(--subheading-2-regular-font-weight);
+  color: var(--neutral-700);
+  font-size: var(--subheading-2-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--subheading-2-regular-letter-spacing);
+  line-height: var(--subheading-2-regular-line-height);
+  font-style: var(--subheading-2-regular-font-style);
+}
+
+.confirm-purchases .button {
+  display: inline-flex;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 0px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--primary);
+  border-radius: 8px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.confirm-purchases .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--paragraf-1-medium-font-family);
+  font-weight: var(--paragraf-1-medium-font-weight);
+  color: var(--surface-100);
+  font-size: var(--paragraf-1-medium-font-size);
+  text-align: center;
+  letter-spacing: var(--paragraf-1-medium-letter-spacing);
+  line-height: var(--paragraf-1-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraf-1-medium-font-style);
+}
+
+.confirm-purchases .div-wrapper {
+  display: inline-flex;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 0px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: var(--secondary);
+  all: unset;
+  box-sizing: border-box;
+}
+
+.confirm-purchases .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--paragraf-1-medium-font-family);
+  font-weight: var(--paragraf-1-medium-font-weight);
+  color: var(--secondary);
+  font-size: var(--paragraf-1-medium-font-size);
+  text-align: center;
+  letter-spacing: var(--paragraf-1-medium-letter-spacing);
+  line-height: var(--paragraf-1-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--paragraf-1-medium-font-style);
+}
+
+.confirm-purchases .footer {
+  width: 1440px;
+  align-items: center;
+  background-color: var(--footer);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  align-items: flex-start;
+  padding: 64px 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .links-and-newsletter {
+  display: flex;
+  flex-direction: column;
+  width: 1216px;
+  align-items: flex-start;
+  padding: 0px 0px 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .frame-5 {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .frame-6 {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.confirm-purchases .footers-column {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .heading {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-family);
+  font-weight: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-weight);
+  color: var(--text-white);
+  font-size: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-size);
+  letter-spacing: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-letter-spacing);
+  line-height: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-line-height);
+  font-style: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-style);
+}
+
+.confirm-purchases .links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .footers-text-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+.confirm-purchases .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-base-leading-6-font-normal-font-family);
+  font-weight: var(--text-base-leading-6-font-normal-font-weight);
+  color: var(--text-2);
+  font-size: var(--text-base-leading-6-font-normal-font-size);
+  letter-spacing: var(--text-base-leading-6-font-normal-letter-spacing);
+  line-height: var(--text-base-leading-6-font-normal-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-leading-6-font-normal-font-style);
+}
+
+.confirm-purchases .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .footer-social-links {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .newsletter {
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
+.confirm-purchases .heading-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-family);
+  font-weight: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-weight);
+  color: var(--text-2);
+  font-size: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-size);
+  letter-spacing: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-letter-spacing);
+  line-height: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-line-height);
+  font-style: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-style);
+}
+
+.confirm-purchases .supporting-text {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--text-base-leading-6-font-normal-font-family);
+  font-weight: var(--text-base-leading-6-font-normal-font-weight);
+  color: var(--text-2);
+  font-size: var(--text-base-leading-6-font-normal-font-size);
+  letter-spacing: var(--text-base-leading-6-font-normal-letter-spacing);
+  line-height: var(--text-base-leading-6-font-normal-line-height);
+  font-style: var(--text-base-leading-6-font-normal-font-style);
+}
+
+.confirm-purchases .footers-subscribe {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .footers-text-input {
+  display: flex;
+  padding: 9px 13px;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--text-white);
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid;
+  align-items: center;
+  position: relative;
+  border-color: var(--text-white);
+}
+
+.confirm-purchases .footers-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 17px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--secondary);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.confirm-purchases .text {
+  font-weight: var(--text-base-leading-6-font-medium-font-weight);
+  color: var(--text-white);
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-base-leading-6-font-medium-font-family);
+  font-size: var(--text-base-leading-6-font-medium-font-size);
+  letter-spacing: var(--text-base-leading-6-font-medium-letter-spacing);
+  line-height: var(--text-base-leading-6-font-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-leading-6-font-medium-font-style);
+}
+
+.confirm-purchases .footer-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .top-border {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  background-color: var(--text-3);
+}
+
+.confirm-purchases .social-links-and {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 32px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.confirm-purchases .copyright {
+  position: relative;
+  width: 315px;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.confirm-purchases .span {
+  color: #b8bfc9;
+  font-family: var(--text-base-leading-6-font-normal-font-family);
+  font-style: var(--text-base-leading-6-font-normal-font-style);
+  font-weight: var(--text-base-leading-6-font-normal-font-weight);
+  letter-spacing: var(--text-base-leading-6-font-normal-letter-spacing);
+  line-height: var(--text-base-leading-6-font-normal-line-height);
+  font-size: var(--text-base-leading-6-font-normal-font-size);
+}
+
+.confirm-purchases .text-wrapper-8 {
+  font-weight: 700;
+  color: #ffffff;
+}

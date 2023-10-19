@@ -1,0 +1,687 @@
+.sign-up {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.sign-up .nav-bar {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .navbar {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--navbar-banner);
+  box-shadow: 0px 0px 15px #0000001a;
+}
+
+.sign-up .container {
+  display: flex;
+  width: 1280px;
+  align-items: center;
+  gap: 40px;
+  padding: 24px;
+  position: relative;
+}
+
+.sign-up .content {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 42px;
+}
+
+.sign-up .image {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  top: -9px;
+  left: 2px;
+  object-fit: cover;
+}
+
+.sign-up .trailing-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  position: absolute;
+  top: -2px;
+  left: 927px;
+}
+
+.sign-up .group {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.sign-up .overlap-group {
+  position: relative;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.sign-up .material-symbols {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 4px;
+  left: 4px;
+}
+
+.sign-up .ellipse {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--text-white);
+}
+
+.sign-up .icon-px-wrapper {
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--text-white);
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.sign-up .icon-px {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 6px;
+  left: 5px;
+}
+
+.sign-up .button {
+  display: inline-flex;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 0px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.sign-up .title-XL {
+  position: relative;
+  width: fit-content;
+  font-family: var(--label3-16-semibold-font-family);
+  font-weight: var(--label3-16-semibold-font-weight);
+  color: var(--text-white);
+  font-size: var(--label3-16-semibold-font-size);
+  text-align: center;
+  letter-spacing: var(--label3-16-semibold-letter-spacing);
+  line-height: var(--label3-16-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--label3-16-semibold-font-style);
+}
+
+.sign-up .div {
+  display: inline-flex;
+  flex: 0 0 auto;
+  background-color: var(--primary);
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 0px 24px;
+  position: relative;
+  border-radius: 8px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.sign-up .navbar-wrapper {
+  position: relative;
+  width: 1440px;
+  height: 76px;
+  background-color: var(--primary);
+}
+
+.sign-up .navbar-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 64px;
+  position: relative;
+  top: 26px;
+  left: 110px;
+}
+
+.sign-up .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  opacity: 0.7;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--text-white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  white-space: nowrap;
+}
+
+.sign-up .frame-wrapper {
+  position: relative;
+  width: 1440px;
+  height: 1064px;
+  background-color: var(--text-white);
+}
+
+.sign-up .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  top: 70px;
+  left: 402px;
+}
+
+.sign-up .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--heading3-48-bold-font-family);
+  font-weight: var(--heading3-48-bold-font-weight);
+  color: var(--primary);
+  font-size: var(--heading3-48-bold-font-size);
+  letter-spacing: var(--heading3-48-bold-letter-spacing);
+  line-height: var(--heading3-48-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--heading3-48-bold-font-style);
+}
+
+.sign-up .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: var(--text-1);
+}
+
+.sign-up .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .frame-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--sub-heading3-28-bold-font-family);
+  font-weight: var(--sub-heading3-28-bold-font-weight);
+  color: var(--third);
+  font-size: var(--sub-heading3-28-bold-font-size);
+  letter-spacing: var(--sub-heading3-28-bold-letter-spacing);
+  line-height: var(--sub-heading3-28-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--sub-heading3-28-bold-font-style);
+}
+
+.sign-up .before-you-go-on {
+  position: relative;
+  width: fit-content;
+  font-family: var(--label4-14-medium-font-family);
+  font-weight: var(--label4-14-medium-font-weight);
+  color: var(--text-black);
+  font-size: var(--label4-14-medium-font-size);
+  text-align: center;
+  letter-spacing: var(--label4-14-medium-letter-spacing);
+  line-height: var(--label4-14-medium-line-height);
+  font-style: var(--label4-14-medium-font-style);
+}
+
+.sign-up .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .div-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .div-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--label2-18-semibold-font-family);
+  font-weight: var(--label2-18-semibold-font-weight);
+  color: transparent;
+  font-size: var(--label2-18-semibold-font-size);
+  letter-spacing: var(--label2-18-semibold-letter-spacing);
+  line-height: var(--label2-18-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--label2-18-semibold-font-style);
+}
+
+.sign-up .span {
+  font-weight: var(--label2-18-semibold-font-weight);
+  color: #202020;
+  font-family: var(--label2-18-semibold-font-family);
+  font-style: var(--label2-18-semibold-font-style);
+  letter-spacing: var(--label2-18-semibold-letter-spacing);
+  line-height: var(--label2-18-semibold-line-height);
+  font-size: var(--label2-18-semibold-font-size);
+}
+
+.sign-up .text-wrapper-3 {
+  color: #db331f;
+  font-family: var(--label2-18-semibold-font-family);
+  font-style: var(--label2-18-semibold-font-style);
+  font-weight: var(--label2-18-semibold-font-weight);
+  letter-spacing: var(--label2-18-semibold-letter-spacing);
+  line-height: var(--label2-18-semibold-line-height);
+  font-size: var(--label2-18-semibold-font-size);
+}
+
+.sign-up .div-4 {
+  position: relative;
+  width: 587px;
+  height: 46px;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: var(--text-1);
+}
+
+.sign-up .frame-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--label4-14-regular-font-family);
+  font-weight: var(--label4-14-regular-font-weight);
+  color: var(--text-black);
+  font-size: var(--label4-14-regular-font-size);
+  letter-spacing: var(--label4-14-regular-letter-spacing);
+  line-height: var(--label4-14-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--label4-14-regular-font-style);
+}
+
+.sign-up .text-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .check-box {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-color: var(--text-1);
+  border-radius: 4px;
+  border: 2px solid;
+  border-color: var(--text-1);
+}
+
+.sign-up .label {
+  position: relative;
+  width: fit-content;
+  font-family: var(--label4-14-medium-font-family);
+  font-weight: var(--label4-14-medium-font-weight);
+  color: var(--text-black);
+  font-size: var(--label4-14-medium-font-size);
+  letter-spacing: var(--label4-14-medium-letter-spacing);
+  line-height: var(--label4-14-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--label4-14-medium-font-style);
+}
+
+.sign-up .button-2 {
+  display: flex;
+  width: 587px;
+  background-color: #dfe5ee;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 0px 24px;
+  position: relative;
+  border-radius: 8px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.sign-up .frame-7 {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--label3-16-semibold-font-family);
+  font-weight: var(--label3-16-semibold-font-weight);
+  color: var(--text-black);
+  font-size: var(--label3-16-semibold-font-size);
+  text-align: center;
+  letter-spacing: var(--label3-16-semibold-letter-spacing);
+  line-height: var(--label3-16-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--label3-16-semibold-font-style);
+}
+
+.sign-up .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--label3-16-semibold-font-family);
+  font-weight: var(--label3-16-semibold-font-weight);
+  color: var(--secondary);
+  font-size: var(--label3-16-semibold-font-size);
+  text-align: center;
+  letter-spacing: var(--label3-16-semibold-letter-spacing);
+  line-height: var(--label3-16-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--label3-16-semibold-font-style);
+}
+
+.sign-up .footer {
+  width: 1440px;
+  align-items: center;
+  background-color: var(--footer);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  align-items: flex-start;
+  padding: 64px 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .links-and-newsletter {
+  display: flex;
+  flex-direction: column;
+  width: 1216px;
+  align-items: flex-start;
+  padding: 0px 0px 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .frame-8 {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up .frame-9 {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.sign-up .heading {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-family);
+  font-weight: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-weight);
+  color: var(--text-white);
+  font-size: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-size);
+  letter-spacing: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-letter-spacing);
+  line-height: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-line-height);
+  font-style: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-style);
+}
+
+.sign-up .links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up .footers-text-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+.sign-up .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-base-leading-6-font-normal-font-family);
+  font-weight: var(--text-base-leading-6-font-normal-font-weight);
+  color: var(--text-2);
+  font-size: var(--text-base-leading-6-font-normal-font-size);
+  letter-spacing: var(--text-base-leading-6-font-normal-letter-spacing);
+  line-height: var(--text-base-leading-6-font-normal-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-leading-6-font-normal-font-style);
+}
+
+.sign-up .div-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up .footer-social-links {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .newsletter {
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
+.sign-up .heading-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-family);
+  font-weight: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-weight);
+  color: var(--text-2);
+  font-size: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-size);
+  letter-spacing: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-letter-spacing);
+  line-height: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-line-height);
+  font-style: var(--text-sm-leading-5-font-semibold-tracking-wider-uppercase-font-style);
+}
+
+.sign-up .supporting-text {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--text-base-leading-6-font-normal-font-family);
+  font-weight: var(--text-base-leading-6-font-normal-font-weight);
+  color: var(--text-2);
+  font-size: var(--text-base-leading-6-font-normal-font-size);
+  letter-spacing: var(--text-base-leading-6-font-normal-letter-spacing);
+  line-height: var(--text-base-leading-6-font-normal-line-height);
+  font-style: var(--text-base-leading-6-font-normal-font-style);
+}
+
+.sign-up .footers-subscribe {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up .footers-text-input {
+  display: flex;
+  padding: 9px 13px;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--text-white);
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid;
+  align-items: center;
+  position: relative;
+  border-color: var(--text-white);
+}
+
+.sign-up .footers-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 17px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--secondary);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.sign-up .text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-base-leading-6-font-medium-font-family);
+  font-weight: var(--text-base-leading-6-font-medium-font-weight);
+  color: var(--text-white);
+  font-size: var(--text-base-leading-6-font-medium-font-size);
+  letter-spacing: var(--text-base-leading-6-font-medium-letter-spacing);
+  line-height: var(--text-base-leading-6-font-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-leading-6-font-medium-font-style);
+}
+
+.sign-up .footer-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .top-border {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  background-color: var(--text-3);
+}
+
+.sign-up .social-links-and {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 32px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sign-up .copyright {
+  position: relative;
+  width: 315px;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.sign-up .text-wrapper-8 {
+  color: #b8bfc9;
+  font-family: var(--text-base-leading-6-font-normal-font-family);
+  font-style: var(--text-base-leading-6-font-normal-font-style);
+  font-weight: var(--text-base-leading-6-font-normal-font-weight);
+  letter-spacing: var(--text-base-leading-6-font-normal-letter-spacing);
+  line-height: var(--text-base-leading-6-font-normal-line-height);
+  font-size: var(--text-base-leading-6-font-normal-font-size);
+}
+
+.sign-up .text-wrapper-9 {
+  font-weight: 700;
+  color: #ffffff;
+}
