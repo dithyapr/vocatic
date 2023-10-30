@@ -15,7 +15,7 @@
 
 .quiz-correction .navbar {
   display: flex;
-  width: 1440px;
+  width: 100%;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -26,7 +26,7 @@
 
 .quiz-correction .container {
   display: flex;
-  width: 1280px;
+  width: 100%;
   align-items: center;
   gap: 40px;
   padding: 24px;
@@ -168,7 +168,7 @@
 
 .quiz-correction .navbar-wrapper {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 76px;
   background-color: var(--primary);
 }
@@ -198,7 +198,7 @@
 
 .quiz-correction .confirm-quiz {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 858px;
   background-color: var(--surface-100);
   overflow: hidden;

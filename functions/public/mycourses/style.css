@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   position: relative;
+  width: 100%;
 }
 
 .my-course-in .nav-bar {
@@ -15,7 +16,7 @@
 
 .my-course-in .navbar {
   display: flex;
-  width: 1440px;
+  width: 100%;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -26,7 +27,7 @@
 
 .my-course-in .container {
   display: flex;
-  width: 1280px;
+  width: 100%;
   align-items: center;
   gap: 40px;
   padding: 24px;
@@ -168,7 +169,7 @@
 
 .my-course-in .navbar-wrapper {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 76px;
   background-color: var(--primary);
 }
@@ -198,7 +199,7 @@
 
 .my-course-in .title-selection {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 363px;
   background-color: var(--text-white);
 }
@@ -288,7 +289,7 @@
 
 .my-course-in .continue-selection {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 485px;
   background-color: var(--text-1);
 }
@@ -497,7 +498,7 @@
 }
 
 .my-course-in .footer {
-  width: 1440px;
+  width: 100%;
   align-items: center;
   background-color: var(--footer);
   display: flex;
@@ -509,7 +510,7 @@
 .my-course-in .container-2 {
   display: flex;
   flex-direction: column;
-  width: 1280px;
+  width: 100%;
   align-items: flex-start;
   padding: 64px 32px;
   position: relative;
@@ -524,6 +525,7 @@
   padding: 0px 0px 32px;
   position: relative;
   flex: 0 0 auto;
+  left: 18%;
 }
 
 .my-course-in .frame-12 {

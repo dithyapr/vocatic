@@ -1,20 +1,86 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocatic</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      .navbar {
+          font-family: 'Poppins', sans-serif;
+          font-weight: bold;
+      }
+
+      .nav-item {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .nav-link{
+        color: white;
+      }
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(102, 102, 102);">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="img/image-1.png" alt="Logo" width="50%" height="50%" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex" style="padding-right: 2%;">
+            <a href="/mycourses"><img src="/img/group-34397.png" /></a>
+            <a href="#" class="btn" style="color: white;">Log In</a>
+            <a href="#" class="btn btn-warning" style="color: white;">Sign Up</a>
+        </div>
+      </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg" style="background-color: rgb(234, 190, 13);">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left: 3%;">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/studymethod">Study Method</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/facility">Facility</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/webinar">Webinar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/aboutus">About Us</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+
     <div class="vocatic-home-screen">
-      <div class="div">
+      <!-- <div class="div">
         <div class="navbar">
           <div class="container">
             <div class="content">
               <img class="image" src="img/image-1.png" />
               <div class="trailing-content">
                 <img class="group" src="img/group-239.png" />
-                <img class="group" src="img/group-34397.png" />
+                <a href="/mycourses"><img class="group" src="img/group-34397.png" /></a>
                 <button class="button"><div class="title-XL"><a href="/login" style="color: white;">Log In</a></div></button>
                 <button class="button-2"><div class="title-XL"><a href="/signup" style="color: white;">Sign Up</a></div></button>
               </div>
@@ -23,12 +89,14 @@
         </div>
         <div class="nav-bar">
           <div class="navbar-2">
-            <div class="frame"><div class="text-wrapper">Home</div></div>
-            <div class="text-wrapper-2">Study Method</div>
-            <div class="text-wrapper-2">Facility</div>
-            <div class="text-wrapper-2">Blog</div>
-            <div class="text-wrapper-2">Webinar</div>
-            <div class="text-wrapper-2">About us</div>
+            <div class="frame">
+                <div class="text-wrapper"><a href="/" style="color: white;">Home</a></div></div>
+                <div class="text-wrapper-2"><a href="/studymethod" style="color: white;">Study Method</a></div>
+                <div class="text-wrapper-2"><a href="/facility" style="color: white;">Facility</a></div>
+                <div class="text-wrapper-2"><a href="/blog" style="color: white;">Blog</a></div>
+                <div class="text-wrapper-2"><a href="/webinar" style="color: white;">Webinar</a></div>
+                <div class="text-wrapper-2"><a href="/aboutus" style="color: white;">About us</a></div>
           </div>
         </div>
-      </div>
+      </div> -->
+      

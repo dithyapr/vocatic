@@ -1,5 +1,5 @@
 .blog-section {
-  display: inline-flex;
+  /* display: inline-flex; */
   flex-direction: column;
   align-items: flex-start;
   position: relative;
@@ -206,7 +206,7 @@
 
 .blog-section .header-section {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 632px;
   background-color: var(--white);
   overflow: hidden;
@@ -214,7 +214,7 @@
 
 .blog-section .overlap {
   position: relative;
-  width: 1577px;
+  width: 100%;
   height: 658px;
   top: -26px;
   left: 80px;
@@ -239,12 +239,12 @@
 
 .blog-section .content-wrapper {
   padding: 0px 24px;
-  position: absolute;
+  position: relative;
   top: 141px;
   left: 0;
   display: flex;
   flex-direction: column;
-  width: 1280px;
+  width: 100%;
   align-items: flex-start;
 }
 
@@ -257,14 +257,14 @@
 
 .blog-section .overlap-2 {
   position: relative;
-  width: 1327px;
+  width: 100%;
   height: 500px;
   top: -49px;
 }
 
 .blog-section .media-content {
-  position: absolute;
-  width: 746px;
+  position: relative;
+  width: 100%;
   height: 500px;
   top: 0;
   left: 581px;
@@ -275,7 +275,7 @@
   width: 557px;
   height: 372px;
   top: 65px;
-  left: 95px;
+  left: 20%;
   background-color: var(--text-white);
   border-radius: 9.95px;
   overflow: hidden;
@@ -329,6 +329,7 @@
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+  left:20%
 }
 
 .blog-section .eyebrow {
@@ -365,6 +366,7 @@
   letter-spacing: var(--text-xl-leading-7-font-normal-letter-spacing);
   line-height: var(--text-xl-leading-7-font-normal-line-height);
   font-style: var(--text-xl-leading-7-font-normal-font-style);
+  left: 20%;
 }
 
 .blog-section .sign-up {
@@ -375,6 +377,7 @@
   gap: 12px;
   position: relative;
   flex: 0 0 auto;
+  left: 20%;
 }
 
 .blog-section .p {
@@ -501,7 +504,7 @@
 .blog-section .info-help {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  width: 100%;;
   height: 360px;
   align-items: center;
   gap: 40px;
@@ -513,7 +516,7 @@
 .blog-section .leading-content-2 {
   display: flex;
   flex-direction: column;
-  width: 1280px;
+  width: 100%;
   align-items: center;
   gap: 16px;
   padding: 0px 32px;
@@ -522,7 +525,7 @@
 }
 
 .blog-section .heading-2 {
-  width: 896px;
+  width: 100%;
   margin-top: -1px;
   font-weight: 700;
   color: var(--gray-900);
@@ -557,13 +560,13 @@
 
 .blog-section .overlap-group-2 {
   position: relative;
-  width: 1440px;
+  width: 80%;
   height: 128px;
 }
 
 .blog-section .plate-2 {
-  position: absolute;
-  width: 1440px;
+  position: relative;
+  width: 100%;
   height: 64px;
   top: 0;
   left: 0;
@@ -572,7 +575,7 @@
 
 .blog-section .stats {
   display: flex;
-  width: 896px;
+  width: 100%;
   align-items: flex-start;
   position: absolute;
   top: 0;
@@ -649,7 +652,7 @@
 
 .blog-section .selection-box {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 1573px;
   background-color: var(--text-1);
 }
@@ -669,7 +672,7 @@
 
 .blog-section .banner-image {
   position: relative;
-  width: 503px;
+  width: 100%;
   height: 187px;
   background-image: url(./img/banner-image.png);
   background-size: cover;
@@ -985,7 +988,7 @@
 }
 
 .blog-section .footer {
-  width: 1440px;
+  width: 100%;
   align-items: center;
   background-color: var(--footer);
   display: flex;
